@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+  <title>VINOS PyF</title>
+  
+</head>
+<body>
+  <h1>TIENDA DE VINOS PYF</h1>
+  <form id="clienteForm">
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="mail">Correo electrónico:</label>
+    <input type="email" id="mail" name="mail" required>
+
+      <div class="card-1">
+          <img src="./assets/img/vinoventa20-html.webp" alt="">
+       <div>
+          <div class="costo">
+              <h2>Gran Enemigo</h2>
+              <P>Valle de Uco Mendoza</P>
+              <a class="precio1" href="">$ 20.000</a>
+            </select>
+            <button type="submit">Agregar al carrito</button>
+          </form>
+       </div>
+       <div class="card-2">
+        <img src="./assets/img/vinoventa22-html.webp" alt="">
+       <div>
+        <div class="costo">
+            <h2>Contracara Reserva Malbec</h2>
+            <P>Valle de Uco Mendoza</P>
+            <a class="precio1" href="">$ 18.000</a>
+          </select>
+          <button type="submit">Agregar al carrito</button>
+        </form>
+     </div>
+     <div class="card-3">
+      <img src="./assets/img/vinoventa30-html.webp" alt="">
+     <div>
+      <div class="costo">
+          <h2>Zorzal Gran Terroir Cabernet Francc</h2>
+          <P>Valle de Uco Mendoza</P>
+          <a class="precio1" href="">$ 18.000</a>
+        </select>
+        <button type="submit">Agregar al carrito</button>
+      </form>
+   </div>
+   <div class="card-4">
+    <img src="./assets/img/vinoventa31-html.webp" alt="">
+   <div>
+    <div class="costo">
+        <h2>Puna 2600 Malbec</h2>
+        <P>Valle de Uco Mendoza</P>
+        <a class="precio1" href="">$ 8.500</a>
+      </select>
+      <button type="submit">Agregar al carrito</button>
+    </form>
+ </div>
+ <div class="card-5">
+  <img src="./assets/img/vinoventa10-html.webp" alt="">
+ <div>
+  <div class="costo">
+      <h2>La Posta Pizzella Malbec</h2>
+      <P>Valle de Uco Mendoza</P>
+      <a class="precio1" href="">$ 13.600</a>
+    </select>
+    <button type="submit">Agregar al carrito</button>
+  </form>
+</div>   
+  <div id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="carritoList">
+    </ul>
+    <p>Total: $<span id="totalCompra">0</span></p>
+    <label for="vinosSelect">Vinos disponibles:</label>
+    <select id="vinosSelect">
+  </div>
+  <script src="productos.js"></script>
+  <script src="json/productos.json"></script>
+  <script src="clientes.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
+
+
+
+
