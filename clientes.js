@@ -7,5 +7,5 @@ const clientes = [
     { id: 6, nombre: "Damian", apellido: "Campa", edad: 43, mail: "dcampa@example.com" },
     { id: 7, nombre: "Ricardo", apellido: "Rodriguez", edad: 68, mail: "rricardo@example.com" },
     { id: 8, nombre: "Norma", apellido: "Navarro", edad: 68, mail: "nnavarro@example.com" },
-    { id: 9, nombre: "Sebastian", apellido: "Fernandez", edad: 37, mail: "sfernandez@example.com" }, 
+    { id: 9, nombre: "Sebastian", apellido: "Ramirez", edad: 37, mail: "sramirez@example.com" }, 
   ];
